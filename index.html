@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social</title>
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-6.1.2-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <ul class="heading-list">
+                <a href="" class="heading-item__link heading-item__link--home"><li class="heading-item"><i class="heading-item__icon heading-item__icon--home fa-solid  fa-house-chimney"></i><span class="heading-home"></span>Logo</li></a>
+                <a href="" class="heading-item__link hide-on-mobile"><li class="heading-item"><i class="heading-item__icon fa-solid fa-earth-americas"></i></li></a>
+                <a href="" class="heading-item__link hide-on-mobile"><li class="heading-item"><i class="heading-item__icon fa-solid fa-user"></i></li></a> 
+                <a href="" class="heading-item__link hide-on-mobile"><li class="heading-item"><i class="heading-item__icon fa-solid fa-envelope"></i></li></a> 
+                <a href="" class="heading-item__link hide-on-mobile heading-item__link--notify"><li class="heading-item"><i class="heading-item__icon heading-item__icon-notify fa-solid fa-bell"></i><span class="heading-notify">3</span></li>
+                    <ul class="heading-subnav__list">
+                        <li class="heading-subnav__item">One new friend request</li>
+                        <li class="heading-subnav__item">John Doe posted on your wall</li>
+                        <li class="heading-subnav__item">Janes likes your post</li>
+                    </ul>
+                </a> 
+            </ul>
+            <input type="checkbox"  class="show-navbar" hidden name="" id="show-navbar">
+            <label for="show-navbar" class="bars-mobile"><i class="fa-solid fa-bars"></i></label>
+            <a href="" class="heading-contaienr__avatar hide-on-mobile"><img src="./asset/pics/avatar1.png" class="heading-avatar" alt=""></a>
+            <ul id="navbar-menu" class="navbar-mobile">
+                <a class="navbar-mobile__link" href="">
+                    <li class="navbar-mobile__item">
+                        link1
+                    </li>
+                </a>
+                <a class="navbar-mobile__link" href="">
+                    <li class="navbar-mobile__item">
+                        link1
+                    </li>
+                </a>
+                <a class="navbar-mobile__link" href="">
+                    <li class="navbar-mobile__item">
+                        link1
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="grid wide p15">
+                <div class="row"> 
+                    <div class="col l-3 m-3 c-12">
+                        <div class="container-about">
+                            <div class="container-about__profile">
+                                <h1 class="container-about__profile-heading">My profile</h1>
+                                <div class="container-about__img">
+                                    <img src="./asset/pics/avatar2.png" class="container-about__avatar" alt="">
+                                </div>
+                                <ul class="container-about__list">
+                                    <li class="container-about__item"><i class="container-about__icon fa-solid fa-pen"></i><span class="container-about__item-text">Design, UI</span></li>
+                                    <li class="container-about__item"><i class="container-about__icon fa-solid fa-house-chimney"></i><span class="container-about__item-text">London, UK</span></li>
+                                    <li class="container-about__item"><i class="container-about__icon fa-solid fa-cake-candles"></i><span class="container-about__item-text">April 1, 1988</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="container-stuff">
+                            <ul class="container-stuff__list">
+                                <li class="container-stuff__item"><i class="container-stuff__icon fa-solid fa-user-group"></i><span class="container-stuff__name">My Groups</span>
+                                <!-- <div class="container-stuff__text" >Some text...</div> -->
+                            </li>
+                            <li class="container-stuff__item--onclick ">
+                            Some Text...
+                            </li>
+                                
+                                <li class="container-stuff__item"><i class="container-stuff__icon fa-solid fa-calendar-days"></i><span class="container-stuff__name">My Events</span></li>
+                                <li class="container-stuff__item--onclick ">
+                                    Some Other Text...
+                                </li>
+                                <li class="container-stuff__item"><i class="container-stuff__icon fa-solid fa-camera-retro"></i><span class="container-stuff__name">My Photos</span></li>
+                                <li class="container-stuff__item--onclick ">
+                                    <div class="row feature">
+                                        <div class="col l-6 m-12 c-12">
+                                            <img src="./asset/pics/album/forest.jpg" alt="" class="container-stuff__img">
+                                            <img src="./asset/pics/album/lights.jpg" alt="" class="container-stuff__img">
+                                            <img src="./asset/pics/album/mountains.jpg" alt="" class="container-stuff__img">
+                                        </div>
+
+                                        <div class="col l-6 m-12 c-12">
+                                            <img src="./asset/pics/album/nature (1).jpg" alt="" class="container-stuff__img">
+                                            <img src="./asset/pics/album/nature.jpg" alt="" class="container-stuff__img">
+                                            <img src="./asset/pics/album/snow.jpg" alt="" class="container-stuff__img">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="container-tag">
+                            <h2 class="container-tag__heading">Interests</h2>
+                            <p class="container-tag-list">
+                                <span class="container-tag__item">News</span>
+                                <span class="container-tag__item">W3Schools</span>
+                                <span class="container-tag__item">Labels</span>
+                                <span class="container-tag__item">Games</span>
+                                <span class="container-tag__item">Friends</span>
+                                <span class="container-tag__item">Games</span>
+                                <span class="container-tag__item">Friends</span>
+                                <span class="container-tag__item">Food</span>
+                                <span class="container-tag__item">Design</span>
+                                <span class="container-tag__item">Art</span>
+                                <span class="container-tag__item">Photos</span>
+                            </p>
+                        </div>
+                    <div class="container-notify">
+                        <div class="container-notify__header"><span class="container-notify__heading">Hey!</span><i class="container-notify__icon fa-solid fa-xmark"></i></div>
+                        <span class="container-notify__text">People are looking at your profile. Find out who.</span>
+                    </div>
+                    </div>
+                    <div class="col l-7 m-7 c-12">
+                        <div class="container-body">
+                            <div class="container-newfeed__wrapper">
+                                <span class="container-newfeed__title">Social Media template by w3.css</span>
+                                <div contenteditable="true" class="container-newfeed__status">Status: Feeling Blue</div>
+                                <button class="container-newfeed__submit"><i class="container-newfeed-icon fa-solid fa-pen"></i> Post</button>
+                            </div>
+
+                            <div class="container-post__wrapper">
+                                <div class="container-post__header">
+                                    <div class="container-post-r">
+                                        <img src="./asset/pics/avatar1.png" alt="" class="container-post__img">
+                                        <span class="container-post__name">John Doe</span>
+                                    </div>
+                                    <span class="container-post__time">1 min</span>
+                                </div>
+                                <div class="container-post__content">
+                                    <span class="container-post__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</span>
+                                    <div class="row container-pic__list">
+                                        <div class="col l-6" >
+                                            <img src="./asset/pics/post/1.jpg" class="container-post__pic" alt="">
+                                        </div>
+                                        <div class="col l-6">
+                                            <img src="./asset/pics/post/2.jpg" class="container-post__pic" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="container-post__iteract">
+                                        <button class="container-newfeed__submit container-newfeed__submit--like"><i class=" fa-solid fa-thumbs-up"></i><span class="container-post__desc container-post__desc--like">Like</span></button>
+                                        <button class="container-newfeed__submit container-newfeed__submit--cmt"><i class=" fa-solid fa-comment"></i><span class="container-post__desc">Comment</span></button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="container-post__wrapper">
+                                <div class="container-post__header">
+                                    <div class="container-post-r">
+                                        <img src="./asset/pics/avatar3.png" alt="" class="container-post__img">
+                                        <span class="container-post__name">Jane Doe</span>
+                                    </div>
+                                    <span class="container-post__time">1 min</span>
+                                </div>
+                                <div class="container-post__content">
+                                    <span class="container-post__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</span>
+                                    <div class="container-post__iteract">
+                                        <button class="container-newfeed__submit container-newfeed__submit--like"><i class=" fa-solid fa-thumbs-up"></i><span class="container-post__desc container-post__desc--like">Like</span></button>
+                                        <button class="container-newfeed__submit container-newfeed__submit--cmt"><i class=" fa-solid fa-comment"></i><span class="container-post__desc">Comment</span></button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-post__wrapper">
+                                <div class="container-post__header">
+                                    <div class="container-post-r">
+                                        <img src="./asset/pics/avatar1.png" alt="" class="container-post__img">
+                                        <span class="container-post__name">John Doe</span>
+                                    </div>
+                                    <span class="container-post__time">1 min</span>
+                                </div>
+                                <div class="container-post__content">
+                                    <div class="row container-pic__list">
+                                        <div class="col l-12" >
+                                            <span class="container-post__cap">Have you seen this?</span>
+                                            <img src="./asset/pics/album/mountains.jpg" class="container-post__pic" alt="">
+                                        </div>
+                                    </div>
+                                    <span class="container-post__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</span>
+                                    <div class="container-post__iteract">
+                                       <button class="container-newfeed__submit container-newfeed__submit--like"><i class=" fa-solid fa-thumbs-up"></i><span class="container-post__desc container-post__desc--like">Like</span></button>
+                                        <button class="container-newfeed__submit container-newfeed__submit--cmt"><i class=" fa-solid fa-comment"></i><span class="container-post__desc">Comment</span></button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-2 m-2 c-12">
+                        <div class="container-control">
+                            <span class="container-up_coming__heading">Upcoming Events:</span>
+                            <img src="./asset/pics/upcoming.jpg" alt="" class="container-up_coming__img">
+                            <h3 class="container-up_coming__heading2">Holiday</h3>
+                            <span class="container-up_coming__time">Friday 15:00</span>
+                            <button class="container-up_coming__more">Info</button>
+                        </div>
+
+                        <div class="container-control container-control--friend">
+                            <span class="container-up_coming__heading">Friend request</span>
+                            <img src="./asset/pics/avatar2.png" alt="" class="container-friend_request">
+                            <span class="container-up_coming__heading2">Jana Doe</span>
+                            <div class="container-up_coming__iteract">
+                                <span class="container-up_coming__click container-up_coming__click--accept"><i class="container-up_coming__icon fa-solid fa-check"></i></span>
+                                <span class="container-up_coming__click container-up_coming__click--deny"><i class="container-up_coming__icon fa-solid fa-xmark"></i></span>
+                                <span class="container-up_coming--click-message none">NONE</span>
+                            </div>
+                        </div>
+
+                        <div class="container-advertisement">
+                            <span class="container-addvertisement__content">ADS</span>
+                        </div>
+
+                        <div class="container-bug">
+                            <span>
+                                <i class="container-bug__icon fa-sharp fa-solid fa-bug"></i>
+                            </span>
+
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="footer__heading">Footer</span>
+            <div class="footer__copyright">Powered by <a href="">w3.css</a></div>
+        </div>
+    </div>
+    <script src="./main.js">
+    </script>
+</body>
+</html>

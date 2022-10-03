@@ -1,0 +1,17 @@
+@media (max-width:739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .bars-mobile{
+        display: block;
+        font-size: 2rem;
+        padding: 16px;
+    }
+
+    .container-newfeed__wrapper{
+        margin-top: 15px;
+    }
+    .container-control{
+        margin-top: 15px;
+    }
+}
